@@ -19,7 +19,7 @@ body
 		height: 100%
 		background: url(../images/botao_fundo.png)
 		transition: all 0.3s ease
-		padding-top: 10px
+		padding-top: 12px
 		border-radius: 8px
 		&:hover
 			color: #000
@@ -185,3 +185,41 @@ footer
 	p
 		margin-top: 40px
 		text-align: center
+
+	.bt-top // Botão ir para o TOPO
+		display: none
+		bottom: 0
+		right: 0
+		z-index: 9999
+		position: fixed
+		background-color: #666
+		float: right
+		margin: 0 50px 50px 0
+		opacity: 0.5
+		font-size: 25px
+		font-weight: bold
+		text-align: center
+		border-radius: 8px
+
+		a
+			text-decoration: none
+			width: 45px
+			height: 45px
+			display: block
+			color: #fff
+			line-height: 45px
+			&:hover
+				color: #fff
+
+		transition: all 0.3s ease
+		&:hover
+			opacity: 1;
+
+		// TABLET
+		@media (max-width: 800px)
+			margin: 0 25px 30px 0
+			font-size: 35px
+			a
+				width: 40px
+				height: 40px
+				line-height: 35px

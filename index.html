@@ -7,24 +7,26 @@
 	
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/wow/css/libs/animate.css">
 
 </head>
 <body>
+	<a name="topo"></a>
 	<header>
 
 		<div class="topo">
 			<nav>
-			<div class="logo">
+			<div class="logo wow slideInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
 				<a href="#"><img src="images/logo_header.png" alt=""></a>
 			</div>
-			<div class="login">
-				<a href="#">Request Consultation</a>
+			<div class="login wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">
+				<a href="#contact">Request Consultation</a>
 			</div>
 			</nav>
 		</div>
 
 		<div class="slide">
-			<h1 class="link desk">You can be one step ahead with MI Data</h1>
+			<h1 class="link desk wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.5s">You can be one step ahead with MI Data</h1>
 		</div>
 		
 	</header>
@@ -32,7 +34,7 @@
 	<main>
 		<div class="container">
 
-			<div class="about">
+			<div class="about wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
 				<h3>A cloud based system designed for commercial property management.</h3>
 				<p>MI DATA creates a thorough maintenance history on your property, allowing our team to pre-empt emergency situations and keep your business running smoothly.
 	A monthly fee covers regular maintenance and upkeep services, creating a comprehensive log of services provided, allowing you to predict and plan for expenditures.
@@ -43,7 +45,7 @@
 				</ul>
 				<strong>MI DATA. Managing all your business.</strong>
 				</p>
-				<a href="#">Get in touch with us</a>
+				<a href="#contact">Get in touch with us</a>
 			</div>
 
 		</div>
@@ -52,19 +54,19 @@
 			<h4>Benefits of using MI Data</h4>
 
 			<ul>
-				<li><img src="images/icon1.png" alt=""><p>Avoid Emergencies</p></li>
-				<li><img src="images/icon2.png" alt=""><p>Save Money</p></li>
-				<li><img src="images/icon3.png" alt=""><p>Save Time</p></li>
-				<li><img src="images/icon4.png" alt=""><p>Get Control</p></li>
-				<li><img src="images/icon5.png" alt=""><p>Manage your annual budgets</p></li>
+				<li class="wow flipInY" data-wow-duration="1s" data-wow-delay="0.6s"><img src="images/icon1.png" alt=""><p>Avoid Emergencies</p></li>
+				<li class="wow flipInY" data-wow-duration="1s" data-wow-delay="0.8s"><img src="images/icon2.png" alt=""><p>Save Money</p></li>
+				<li class="wow flipInY" data-wow-duration="1s" data-wow-delay="1s"><img src="images/icon3.png" alt=""><p>Save Time</p></li>
+				<li class="wow flipInY" data-wow-duration="1s" data-wow-delay="1.2s"><img src="images/icon4.png" alt=""><p>Get Control</p></li>
+				<li class="wow flipInY" data-wow-duration="1s" data-wow-delay="1.4s"><img src="images/icon5.png" alt=""><p>Manage your annual budgets</p></li>
 			</ul>
 				
 		</div>
-
+		<a name="contact"></a>
 		<div class="contact">
-			<h4>Get in touch for an obligation free consultation</h4>
+			<h4 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">Get in touch for an obligation free consultation</h4>
 
-			<div class="form">
+			<div class="form wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
 				<form>
 					<div class="form-group">
 						<input type="text" class="form-control" id="nome" placeholder="Name" required />
@@ -98,7 +100,23 @@
 
 	<footer>
 		<p><img src="images/logo_footer.png" alt=""></p>
-	</footer>
 
+		<div class="bt-top">
+	    <a href="#topo">^</a>
+		</div>
+	</footer>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="js/scroll_suave.js"></script> 
+<script type="text/javascript" src="js/botao_top.js"></script>
+
+<script src="bower_components/wow/dist/wow.min.js"></script>
+
+<script>
+		$(function(){
+			new WOW().init(); // CHAMADA PARA OS EFEITOS DE ROLAGEM
+
+		});
+</script>
 </body>
 </html>
