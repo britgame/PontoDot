@@ -1,6 +1,6 @@
 <div class="container">
 
-	<div class="about">
+	<div class="about wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
 		<h3>A cloud based system designed for commercial property management.</h3>
 		<p>MI DATA creates a thorough maintenance history on your property, allowing our team to pre-empt emergency situations and keep your business running smoothly.
 A monthly fee covers regular maintenance and upkeep services, creating a comprehensive log of services provided, allowing you to predict and plan for expenditures.

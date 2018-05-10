@@ -1,7 +1,8 @@
+<a name="contact"></a>
 <div class="contact">
-	<h4>Get in touch for an obligation free consultation</h4>
+	<h4 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">Get in touch for an obligation free consultation</h4>
 
-	<div class="form">
+	<div class="form wow fadeInRight" data-wow-duration="1s" data-wow-delay="2s">
 		<form>
 			<div class="form-group">
 				<input type="text" class="form-control" id="nome" placeholder="Name" required />
